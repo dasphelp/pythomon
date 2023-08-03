@@ -5,22 +5,22 @@ The program is a shell that initiates 'Pythomon'. It is based off of the Pokemon
 
 [Github Link](https://github.com/dasphelp/pythomon)
 
-## Instructions:
+## Instructions
 - Since the program is a shell, all instructions on how to manuever through the program are built into its terminal interface.
 - To start the program, open up a terminal, navigate to the directory containing the program, and run 'python' or 'python3' or 'python2', followed by 'pythomon.py'.
 
-## Classes:
+## Classes
 ### 'Pokemon'
 - The 'Pokemon' class models Pokemon, fictional creatures originally created by Satoshi Tajiri. 
 - These Pokemon have states and behaviors just like creatures in the real world, and many of the methods and attributes of the Pokemon class model their states and behaviors.
 - The rest of the methods and variables aid the system to help interact with the Pokemon's data.
 - Some of these methods include: battling, leveling up, and checking stats.
 - Some of the attributes include: species, attack, defense, and experience.
-#### Class Attributes:
+#### Class Attributes
 - 'move_dictionary'
 	- 'move_dictionary' stores all of the moves available to Pokemon in battle as a dictionary.
   	- The types of the moves are the keys of the dictionary, and the moves belonging to each type are the values of each key in lists.
-#### Data Attibutes (Private):
+#### Data Attibutes (Private)
 - '__pokemon_dictionary'
 	- stores all the species of Pokemon available as a dictionary.
 	- The types of Pokemon are the keys of the dictionary, and the Pokemon belonging to each type are the values of each key in lists.
@@ -45,7 +45,7 @@ The program is a shell that initiates 'Pythomon'. It is based off of the Pokemon
 	- A pokemon gains experience points after winning a battle, and once these points reach a certain number, the Pokemon levels up.
 - '__experience_cap'
 	- stores the number that a Pokemon's experience must reach in order to level up as an int.
-#### Methods (NOTE: ALL CLASS METHODS TAKE IN SELF [OBJECT] AS FIRST ARGUMENT):
+#### Methods (NOTE: ALL CLASS METHODS TAKE IN SELF [OBJECT] AS FIRST ARGUMENT)
 - 'get_nickname'
 	- returns 'self.__nickname'.
 - 'set_nickname'
@@ -96,7 +96,7 @@ The program is a shell that initiates 'Pythomon'. It is based off of the Pokemon
 	 	- Advantage/disadvantages are represented by a number that will be factored into damage calculations during a battle (type advantages mean higher numbers).
 	      	- This number is returned as 'special' and a message that states the advantage status is returned as 'message'.
 
-## ACKNOWLEDGEMENTS:
+## ACKNOWLEDGEMENTS
 - Pokemon are intellectual property owned by The Pokemon Company.
 - I used the Pokemon Chimchar's base statistics from the website 'Pokemon Database' https://pokemondb.net/pokedex/chimchar as a model for the base stats of my Pokemon. 
 - I borrowed the abstraction of mechanisms that are present in the Pokemon video games, but I did not borrow any of the actual programming logic behind them for this project.
