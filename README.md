@@ -1,29 +1,26 @@
-Github Link
-https://github.com/dasphelp/pythomon
-
-Documentation for Python script 'pythomon.py'
+# Pythomon
 by Daniel Phelps (2021)
 
+[Github Link](https://github.com/dasphelp/pythomon)
 
-# ACKNOWLEDGEMENTS:
-# Pokemon are intellectual property owned by The Pokemon Company.
-# I used the Pokemon Chimchar's base statistics from the website 'Pokemon Database' https://pokemondb.net/pokedex/chimchar as a model for the base stats of my Pokemon. 
-# I borrowed the abstraction of mechanisms that are present in the Pokemon video games, but I did not borrow any of the actual programming logic behind them for this project.
-# For example, I know that in the games, Fire moves do extra damage against Grass pokemon, but I came up with how to impement this and other mechanisms like this into code on my own.
+Documentation for Python script 'pythomon.py'
 
+## ACKNOWLEDGEMENTS:
+- Pokemon are intellectual property owned by The Pokemon Company.
+- I used the Pokemon Chimchar's base statistics from the website 'Pokemon Database' https://pokemondb.net/pokedex/chimchar as a model for the base stats of my Pokemon. 
+- I borrowed the abstraction of mechanisms that are present in the Pokemon video games, but I did not borrow any of the actual programming logic behind them for this project.
+- For example, I know that in the games, Fire moves do extra damage against Grass pokemon, but I came up with how to impement this and other mechanisms like this into code on my own.
 
-Class Documentation
-
-Classes:
- -'Pokemon'
- --The 'Pokemon' class models Pokemon, fictional creatures originally created by Satoshi Tajiri. 
-   These Pokemon have states and behaviors just like creatures in the real world, and many of the methods and attributes of the Pokemon class model their states and behaviors.
-   The rest of the methods and variables aid the system to help interact with the Pokemon's data.
-   Some of these methods include: battling, leveling up, and checking stats.
-   Some of the attributes include: species, attack, defense, and experience.
-	Class Attributes:
-	 -'move_dictionary'
-	   ---'move_dictionary' stores all of the moves available to Pokemon in battle as a dictionary.
+## Classes:
+### 'Pokemon'
+- The 'Pokemon' class models Pokemon, fictional creatures originally created by Satoshi Tajiri. 
+- These Pokemon have states and behaviors just like creatures in the real world, and many of the methods and attributes of the Pokemon class model their states and behaviors.
+- The rest of the methods and variables aid the system to help interact with the Pokemon's data.
+- Some of these methods include: battling, leveling up, and checking stats.
+- Some of the attributes include: species, attack, defense, and experience.
+#### Class Attributes:
+- 'move_dictionary'
+	- 'move_dictionary' stores all of the moves available to Pokemon in battle as a dictionary.
 	      The types of the moves are the keys of the dictionary, and the moves belonging to each type are the values of each key in lists.
 	Data Attibutes (Private):
 	 -'__pokemon_dictionary'
