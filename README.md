@@ -5,15 +5,9 @@ The program is a shell that initiates 'Pythomon'. It is based off of the Pokemon
 
 [Github Link](https://github.com/dasphelp/pythomon)
 
-## INSTRUCTIONS:
+## Instructions:
 - Since the program is a shell, all instructions on how to manuever through the program are built into its terminal interface.
 - To start the program, open up a terminal, navigate to the directory containing the program, and run 'python' or 'python3' or 'python2', followed by 'pythomon.py'.
-
-## ACKNOWLEDGEMENTS:
-- Pokemon are intellectual property owned by The Pokemon Company.
-- I used the Pokemon Chimchar's base statistics from the website 'Pokemon Database' https://pokemondb.net/pokedex/chimchar as a model for the base stats of my Pokemon. 
-- I borrowed the abstraction of mechanisms that are present in the Pokemon video games, but I did not borrow any of the actual programming logic behind them for this project.
-- For example, I know that in the games, Fire moves do extra damage against Grass pokemon, but I came up with how to impement this and other mechanisms like this into code on my own.
 
 ## Classes:
 ### 'Pokemon'
@@ -101,3 +95,9 @@ The program is a shell that initiates 'Pythomon'. It is based off of the Pokemon
 		- Grass Pokemon do less damage to Grass and Fire Pokemon, Water to Water and Grass, and Fire to Fire and Water.
 	 	- Advantage/disadvantages are represented by a number that will be factored into damage calculations during a battle (type advantages mean higher numbers).
 	      	- This number is returned as 'special' and a message that states the advantage status is returned as 'message'.
+
+## ACKNOWLEDGEMENTS:
+- Pokemon are intellectual property owned by The Pokemon Company.
+- I used the Pokemon Chimchar's base statistics from the website 'Pokemon Database' https://pokemondb.net/pokedex/chimchar as a model for the base stats of my Pokemon. 
+- I borrowed the abstraction of mechanisms that are present in the Pokemon video games, but I did not borrow any of the actual programming logic behind them for this project.
+- For example, I know that in the games, Fire moves do extra damage against Grass pokemon, but I came up with how to impement this and other mechanisms like this into code on my own.
